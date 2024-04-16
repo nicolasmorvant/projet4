@@ -42,6 +42,11 @@
 
 ![Google Lighthouse](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRk2E2KKeR9JbdleoB9Y72qF3x9Izqp4514VEyDejI9w&s)
 ![GT Metrix](https://www.agence-ocelot.com/wp-content/uploads/2023/03/gtmetrix.jpg)
+![WAVE Evaluation Tool](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+![Axe Dev Tools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
+![Headings Map](https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
+![NVDA](https://www.nvaccess.org/download/)
+
 
 
 ### 
