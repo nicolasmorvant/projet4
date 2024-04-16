@@ -41,6 +41,7 @@
 ## Technologies utilisées
 
 ![Google Lighthouse](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRk2E2KKeR9JbdleoB9Y72qF3x9Izqp4514VEyDejI9w&s)
+![GT Metrix](https://www.agence-ocelot.com/wp-content/uploads/2023/03/gtmetrix.jpg)
 
 
 ### 
@@ -77,7 +78,6 @@ git push -u origin master
 ## Ressources
 - [Modèle de rapport d'intervention](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DW_P5+Optimisation+%26+debug/DW+P5+Optimisation-debug+-+Modele+rapport+intervention.odt)
 - [PDF de l'audit du site de Nina Carducci](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/Audit+lighthouse+Desktop.pdf)
-- [GT Metrix](https://gtmetrix.com/)
 - [10 conseils pour améliorer votre référencement local](https://www.codeur.com/blog/conseils-referencement-local/)
 - [Qu’est-ce que Google Lighthouse ? ](https://www.ionos.fr/digitalguide/web-marketing/search-engine-marketing/google-lighthouse/)
 - [7 astuces pour optimiser vos images façon SEO](https://fr.oncrawl.com/referencement/7-astuces-pour-optimiser-vos-images-facon-seo/)
