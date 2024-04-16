@@ -76,6 +76,7 @@ git push -u origin master
 ## Ressources
 - [Modèle de rapport d'intervention](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/DW_P5+Optimisation+%26+debug/DW+P5+Optimisation-debug+-+Modele+rapport+intervention.odt)
 - [PDF de l'audit du site de Nina Carducci](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/Audit+lighthouse+Desktop.pdf)
+- [GT Metrix](https://gtmetrix.com/)
 - [10 conseils pour améliorer votre référencement local](https://www.codeur.com/blog/conseils-referencement-local/)
 - [Qu’est-ce que Google Lighthouse ? ](https://www.ionos.fr/digitalguide/web-marketing/search-engine-marketing/google-lighthouse/)
 - [7 astuces pour optimiser vos images façon SEO](https://fr.oncrawl.com/referencement/7-astuces-pour-optimiser-vos-images-facon-seo/)
