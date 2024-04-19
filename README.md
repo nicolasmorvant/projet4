@@ -104,4 +104,15 @@ git push -u origin master
 | Date | Réalisation |
 | ------ | ------ |
 | 16/04/2024| Création du projet|
+|19/04/2024| Analyse du code source avec Google Lighthouse et GTMetrix|
+|| Débogage des fonctionnalités liéés à la navigation de la modale et du style de la galerie sélectionnée|
+|| Dans ```maugallery.js``` :|
+|| Ajout de la classe active |
+|| ```$(".active-tag").removeClass("active active-tag");```|
+|| ```$(this).addClass("active active-tag");```|
 |||
+|| Modification des index|
+|| ```prev = imagesCollection[index - 1]```|
+|| ```next = imagesCollection[index + 1]```|
+|||
+
