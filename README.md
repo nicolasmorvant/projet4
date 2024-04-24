@@ -87,6 +87,7 @@ git push -u origin master
 - [Qu’est-ce que Google Lighthouse ? ](https://www.ionos.fr/digitalguide/web-marketing/search-engine-marketing/google-lighthouse/)
 - [7 astuces pour optimiser vos images façon SEO](https://fr.oncrawl.com/referencement/7-astuces-pour-optimiser-vos-images-facon-seo/)
 - [Les balises meta indispensables pour les réseaux sociaux : Facebook, Twitter, Pinterest, LinkedIn](https://www.skyminds.net/balises-meta-reseaux-sociaux-facebook-twitter-pinterest/)
+- [Test Twitter Card](https://www.bannerbear.com/tools/twitter-card-preview-tool/#image_result)
 
 
 ### 
