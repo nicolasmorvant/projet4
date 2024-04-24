@@ -122,6 +122,6 @@ git push -u origin master
 ||Ajout d'une URL canonique ```<link rel="canonical" href="https://nina-carducci.github.io/" />```|
 ||Ajout d'un lot de favicon|
 ||Ajout du fichier ```site.webmanifest``` via ```<link rel="manifest" href="./assets/site.webmanifest">```|
-|||
+||Ajout du code json-ld pour le référencement local (schema.org)|
 |||
 |||
