@@ -42,10 +42,10 @@
 
 ![Google Lighthouse](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRk2E2KKeR9JbdleoB9Y72qF3x9Izqp4514VEyDejI9w&s)
 ![GT Metrix](https://www.agence-ocelot.com/wp-content/uploads/2023/03/gtmetrix.jpg)
-![WAVE Evaluation Tool](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
-![Axe Dev Tools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
-![Headings Map](https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
-![NVDA](https://www.nvaccess.org/download/)
+![WAVE Evaluation Tool](https://images.squarespace-cdn.com/content/v1/6175a4406446f45d5100f2dc/cf89b8ac-36f1-40cb-bdbd-ef1a4f05c826/Untitled+design+%2816%29.png)
+![Axe Dev Tools](https://addons.mozilla.org/user-media/previews/thumbs/240/240309.jpg?modified=1622132387)
+![Headings Map](https://lh3.googleusercontent.com/09q9d8b_KTCkAiuj7VFpyPK25oQPnOffPhY6iclGMog5f-g9kB3IcjDNdi7TjGPNHGzwxgp5o1TOH35uW8Pk7RGE=w128-h128-e365-rj-sc0x00ffffff)
+![NVDA](https://vi.ie/wp-content/uploads/2020/12/NVDA-cover-with-text-2.jpg)
 
 
 
