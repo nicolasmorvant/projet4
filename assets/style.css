@@ -1,3 +1,11 @@
+:root
+{
+	--main-gold: #BEB45A;
+	--full-white: #FFFFFF;
+	--full-black: #000000;
+}
+
+
 body
 {
 	max-width: 1920px;
@@ -12,14 +20,13 @@ body
 
 header
 {
-	background-color: white;
+	background-color: var(--full-white);
 	position: sticky;
-	top:0;
+	top: 0;
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	padding-inline: 100px;
-	padding-block: 30px;
+	padding: 30px 100px;
 	align-items: center;
 }
 
@@ -38,26 +45,20 @@ nav ul
 
 nav li 
 {
-	padding-inline: 10px;
+	padding: 0 10px;
 }
 
 nav a 
 {
 	text-decoration: none;
-	color: #000;
-}
-
-.social-link img 
-{
-	width: 20px;
+	color: var(--full-black);
 }
 
 #about 
 {
 	display: flex;
 	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding: 100px;
 	position: relative;
 }
 
@@ -126,13 +127,13 @@ nav a
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link 
 {
-	color: #fff;
-	background-color: #BEB45A;
+	color: var(--full-black);
+	background-color: var(--main-gold);
 	border-radius:0 ;
 }
 .nav-pills .nav-link 
 {
-	color: #000
+	color: var(--full-black);
 }
 .item-column 
 {
@@ -159,7 +160,7 @@ nav a
 {
 	width: 30px;
 	height: 30px;
-	border-radius: 00%;
+	border-radius: 0;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -217,7 +218,7 @@ nav a
 
 .service 
 {
-	background-color: white;
+	background-color: var(--full-white);
 	max-width: 390px;
 	width: 30%;
 	height: 337px;
@@ -233,8 +234,7 @@ nav a
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding: 100px;
 }
 
 #contact .container 
@@ -244,7 +244,7 @@ nav a
 .picture.right::before 
 {
 	content: ' ';
-	background-color: #BEB45A;
+	background-color: var(--main-gold);
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -287,9 +287,50 @@ form textarea
 
 button[type="submit"] 
 {
-	background-color: #BEB45A;
+	background-color: var(--main-gold);
 	padding: .5em 1em;
 }
+
+/* SECTION POUR LE RÉFÉRENCEMENT LOCAL */
+
+	#infos
+	{
+		background-color: var(--full-white);
+		margin-bottom: 50px;
+	}
+
+	#infos h3
+	{
+		padding: 50px 0;
+		text-align: center;
+	}
+
+	#conteneurInfos
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+	}
+
+	#map
+	{
+		height: 400px;
+		width: 600px;
+		background-color: #000000;
+		margin-right: 150px;
+	}
+
+	#infos h4
+	{
+		padding-bottom: 30px;
+	}
+
+	#infos i
+	{
+		margin-right: 15px;
+	}
 
 @media all and (max-width: 1180px) 
 {
@@ -311,6 +352,7 @@ button[type="submit"]
 		width: 100%;
 	}
 }
+
 
 @media all and (max-width: 1000px) 
 {
@@ -393,7 +435,7 @@ button[type="submit"]
 	header nav, header nav ul 
 	{
 		width: 100%;
-		padding: 0 0 0 0;
+		padding: 0;
 	}
 	header nav li 
 	{
@@ -415,8 +457,7 @@ button[type="submit"]
 	}
 	#about, #contact 
 	{
-		padding-inline: 2em;
-		padding-block: 2em;
+		padding: 2em;
 	}
 	form 
 	{
@@ -426,5 +467,12 @@ button[type="submit"]
 	{
 		width: 80%;
 	}
+
+	/* SECTION POUR LE RÉFÉRENCEMENT LOCAL */
+
+		#conteneurInfos
+		{
+			flex-direction: column;
+		}
 }
 
