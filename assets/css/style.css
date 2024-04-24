@@ -87,16 +87,28 @@ nav a
 	width: 100%;
 
 }
+
+/* FLÈCHES DE NAVIGATION DU CARROUSEL */
+.carousel-control-prev, .carousel-control-next
+{
+	top: 50%; /* Centrer verticalement */
+	margin-bottom: 0; /* Suppression de la marge inférieure */
+}
+
+
+
 #about-me 
 {
 	flex: 2
 }
+
 .about-me__title 
 {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
+
 .about-me__introduction 
 {
 	font-family: 'Spectral';
@@ -105,6 +117,7 @@ nav a
 	width: 60%;
 	font-size: 1rem;
 }
+
 #about-me p 
 {
 	width: 80%;
@@ -126,22 +139,26 @@ nav a
 {
 	justify-content: center;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link 
 {
 	color: var(--full-black);
 	background-color: var(--main-gold);
 	border-radius:0 ;
 }
+
 .nav-pills .nav-link 
 {
 	color: var(--full-black);
 }
+
 .item-column 
 {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
 .item-column::after
 {
 	content: "";
@@ -149,6 +166,7 @@ nav a
 	padding-bottom: 100%;
 
 }
+
 .gallery-item 
 {
 	position: absolute;
@@ -157,6 +175,7 @@ nav a
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next 
 {
 	width: 30px;
@@ -176,6 +195,7 @@ nav a
 	margin: auto;
 	padding-block: 3em;
 }
+
 .quote__text 
 {
 	font-family: Spectral;
@@ -184,6 +204,7 @@ nav a
 	font-weight: 300;
 
 }
+
 .quote__author 
 {
 	font-family: Spectral;
@@ -197,6 +218,7 @@ nav a
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
 #services .container::before
 {
 	content: ' ';
@@ -242,6 +264,7 @@ nav a
 {
 	display: flex;
 }
+
 .picture.right::before 
 {
 	content: ' ';
@@ -253,11 +276,13 @@ nav a
 	right: 0;
 	z-index: -1;
 }
+
 .form-container 
 {
 	flex : 2;
 
 }
+
 form 
 {
 	display: flex;
