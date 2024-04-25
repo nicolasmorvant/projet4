@@ -322,21 +322,37 @@ button[type="submit"]
 	#infos
 	{
 		background-color: var(--full-white);
-		margin-bottom: 50px;
+		padding: 50px 20px;
+		margin: 80px 0 50px;
+		background-color: #F6D2B8;
+		position: relative;
+		min-height: 650px;
 	}
+
+	.carre-left::before 
+	{
+		content: ' ';
+		background-color: #E5975F;
+		width: 374px;
+		height: 329px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+	}
+
 
 	#infos h3
 	{
-		padding: 50px 0;
 		text-align: center;
 	}
 
 	#conteneurInfos
 	{
+		margin-top: 50px;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+		justify-content: space-evenly;
 		font-weight: bold;
 	}
 
@@ -348,6 +364,13 @@ button[type="submit"]
 		margin-right: 150px;
 	}
 
+	#coordonnees-et-reseaux
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
 	#infos h4
 	{
 		padding-bottom: 30px;
@@ -356,6 +379,21 @@ button[type="submit"]
 	#infos i
 	{
 		margin-right: 15px;
+	}
+
+	.fa-brands
+	{
+		font-size: 20px;
+		max-height: 40px;
+		padding: 10px;
+		color: #F6D2B8;
+		background-color: var(--full-black);
+		border-radius: 50%;
+	}
+
+	.fa-brands:hover
+	{
+		cursor: pointer;
 	}
 
 @media all and (max-width: 1180px) 

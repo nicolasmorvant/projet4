@@ -116,7 +116,7 @@ git push -u origin master
 || ```prev = imagesCollection[index - 1]```|
 || ```next = imagesCollection[index + 1]```|
 |||
-|24/04/2024|Ajout de balises ```<meta>``` pour  la description, les robots d'indexation des moteurs de recherche, pour les réseaux sociaux, pour le thème du site|
+|24/04/2024|Ajout de balises ```<meta>``` pour  la langue, la description, les robots d'indexation des moteurs de recherche, pour les réseaux sociaux, pour le thème du site|
 ||Ajout d'une balise ```<title>``` pour le référencement|
 ||Ajout de leaflet pour ajouter une carte dans le ```footer``` afin de géolocaliser Nina Carducci|
 ||Ajout d'une URL canonique ```<link rel="canonical" href="https://nina-carducci.github.io/" />```|

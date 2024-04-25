@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+		<!-- LANGUAGE-->
+		<meta name="language" content="fr-FR">
 		<!-- ROBOTS -->
 		<meta name="robots" content="index, follow">
 
@@ -11,14 +12,6 @@
 		<meta name="description" content="La photographe professionnelle Nina Carducci propose des séances photo, des retouches photo et des albums personnalisés pour les portraits, les mariages et les événements à Bordeaux, en Gironde et en Île-de-France.">
 		
 		<!-- MÉTA DONNÉES POUR LES RÉSEAUX SOCIAUX -->
-
-			<!--
-				Infos Skyminds.net (https://www.skyminds.net/balises-meta-reseaux-sociaux-facebook-twitter-pinterest/)
-
-				Sur Twitter, la grande image fait 499 pixels de large. (L'image doit faire au moins 280x150px).
-				Sur Facebook, elle fait 484 pixels.
-				Sur Google+, c’est 346 pixels.
-			-->
 
 			<!-- TWITTER CARD-->
 			<meta name="twitter:card" content="summary" />
@@ -101,7 +94,7 @@
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-			<link rel="stylesheet" href="./assets/css/style.min.css">
+			<link rel="stylesheet" href="./assets/css/style.css">
 
 			<!-- FONT AWESOME -->
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -284,26 +277,38 @@
 					</div>
 				</div>
 			</section>
-			<section id="infos">
+			<section id="infos" class="carre-left">
 				<h3>Informations</h3>
 				<div id="conteneurInfos">
 					<div id="map"></div>
-					<div itemscope itemtype="http://schema.org/LocalBusiness">
-						<h4 itemprop="name">Nina Carducci</h4>
-						<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-							<i class="fa-solid fa-location-dot"></i>
-							<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
-							<span itemprop="postalCode">33200</span> -
-							<span itemprop="addressLocality">Bordeaux</span>							
-						</p>
-						<p>
-							<i class="fa-solid fa-mobile"></i>
-							<span itemprop="telephone">05 56 67 78 89</span>
-						</p>
-						<p>
-							<i class="fa-regular fa-calendar-days"></i>
-							<span itemprop="openingHours" content="Mo-Fr 10:00-19:00">Du lundi au vendredi de 10:00 à 19:00</span>
-						</p>
+					<div id="coordonnees-et-reseaux">
+						<div itemscope itemtype="http://schema.org/LocalBusiness">
+							<h4 itemprop="name">Nina Carducci</h4>
+							<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+								<i class="fa-solid fa-location-dot"></i>
+								<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+								<span itemprop="postalCode">33200</span> -
+								<span itemprop="addressLocality">Bordeaux</span>							
+							</p>
+							<p>
+								<i class="fa-solid fa-mobile"></i>
+								<span itemprop="telephone">05 56 67 78 89</span>
+							</p>
+							<p>
+								<i class="fa-regular fa-calendar-days"></i>
+								<span itemprop="openingHours" content="Mo-Fr 10:00-19:00">Du lundi au vendredi de 10:00 à 19:00</span>
+							</p>
+						</div>
+						<div id="reseaux-sociaux">
+							<h4>Retrouvez-moi sur les réseaux sociaux</h4>
+							<i class="fa-brands fa-meta"></i>
+							<i class="fa-brands fa-twitter"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-pinterest"></i>
+							<i class="fa-brands fa-linkedin"></i>
+							<i class="fa-brands fa-discord"></i>
+							<i class="fa-brands fa-youtube"></i>
+						</div>
 					</div>
 				</div>
 			</section>
