@@ -317,85 +317,6 @@ button[type="submit"]
 	padding: .5em 1em;
 }
 
-/* SECTION POUR LE RÉFÉRENCEMENT LOCAL */
-
-	#infos
-	{
-		background-color: var(--full-white);
-		padding: 50px 20px;
-		margin: 80px 0 50px;
-		background-color: #F6D2B8;
-		position: relative;
-		min-height: 650px;
-	}
-
-	.carre-left::before 
-	{
-		content: ' ';
-		background-color: #E5975F;
-		width: 374px;
-		height: 329px;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		z-index: 1;
-	}
-
-
-	#infos h3
-	{
-		text-align: center;
-	}
-
-	#conteneurInfos
-	{
-		margin-top: 50px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		font-weight: bold;
-	}
-
-	#map
-	{
-		height: 400px;
-		width: 600px;
-		background-color: #000000;
-		margin-right: 150px;
-	}
-
-	#coordonnees-et-reseaux
-	{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-	}
-
-	#infos h4
-	{
-		padding-bottom: 30px;
-	}
-
-	#infos i
-	{
-		margin-right: 15px;
-	}
-
-	.fa-brands
-	{
-		font-size: 20px;
-		max-height: 40px;
-		padding: 10px;
-		color: #F6D2B8;
-		background-color: var(--full-black);
-		border-radius: 50%;
-	}
-
-	.fa-brands:hover
-	{
-		cursor: pointer;
-	}
-
 @media all and (max-width: 1180px) 
 {
 	.picture 
@@ -531,12 +452,5 @@ button[type="submit"]
 	{
 		width: 80%;
 	}
-
-	/* SECTION POUR LE RÉFÉRENCEMENT LOCAL */
-
-		#conteneurInfos
-		{
-			flex-direction: column;
-		}
 }
 
