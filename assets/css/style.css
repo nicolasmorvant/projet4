@@ -184,8 +184,12 @@ nav a
 .gallery-item 
 {
 	position: absolute;
+	/*
 	width: 100%;
 	height: 100%;
+	*/
+	width: 440px;
+	height: 440px;
 	object-fit: cover;
 	padding: .5em;
 }
