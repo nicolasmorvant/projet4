@@ -36,6 +36,11 @@ h1
 	font-size: 26px;
 }
 
+h1, h2, h3, h4, h5
+{
+	font-weight: normal;
+}
+
 nav ul 
 {
 	display: flex;
@@ -61,6 +66,12 @@ nav a
 	background-color: #F6D2B8;
 	padding: 100px;
 	position: relative;
+}
+
+#about img
+{
+	width: 555px;
+	height: 553px;
 }
 
 .picture.left::before 
@@ -94,8 +105,6 @@ nav a
 	top: 50%; /* Centrer verticalement */
 	margin-bottom: 0; /* Suppression de la marge inférieure */
 }
-
-
 
 #about-me 
 {
@@ -142,9 +151,14 @@ nav a
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link 
 {
-	color: var(--full-black);
-	background-color: var(--main-gold);
+	color: var(--full-white);
+	background-color: #666130;
 	border-radius:0 ;
+}
+
+.visually-hidden
+{
+	display: none;
 }
 
 .nav-pills .nav-link 
@@ -280,7 +294,6 @@ nav a
 .form-container 
 {
 	flex : 2;
-
 }
 
 form 
