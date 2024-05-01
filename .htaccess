@@ -16,7 +16,6 @@ BrowserMatch ^Mozilla/5\.0(\s*)\(Windows(\s*)NT(\s*)6(\.\d+)(;\s*)rv:([7-9]|1[0-
     <FilesMatch "\.(html|htm)$">
         Header set Cache-Control "max-age=31536000, public"
     </FilesMatch>
-    # Enleve le cache pour les ressources dynamiques
     <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
         Header unset Cache-Control
     </FilesMatch>
