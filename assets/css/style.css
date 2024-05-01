@@ -68,12 +68,6 @@ nav a
 	position: relative;
 }
 
-#about img
-{
-	width: 555px;
-	height: 553px;
-}
-
 .picture.left::before 
 {
 	content: ' ';
@@ -460,6 +454,12 @@ button[type="submit"]
 	form 
 	{
 		width: 100%;
+	}
+	.form-container
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.picture 
 	{
