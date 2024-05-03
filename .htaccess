@@ -21,4 +21,5 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
     ExpiresDefault "access plus 2 days"
 </IfModule>
 
+Header set Cache-Control "max-age=31536000"
 Header set Content-Security-Policy "script-src 'self';"
