@@ -1,28 +1,11 @@
-<IfModule mod_brotli.c>
-    SetOutputFilter BROTLI
-    AddOutputFilterByType BROTLI text/html text/css text/plain text/xml application/x-javascript
-</IfModule>
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
 
-BrowserMatch ^Mozilla/5\.0(\s*)\(Windows(\s*)NT(\s*)6(\.\d+)(;\s*)rv:([7-9]|1[0-9])(\.\d+)?(\))?(\s*)Gecko(\s*)\/(\d+)(\s*)Firefox(\s*)\/([2-9]|[1-9][0-9]+)(\.\d+)?$ no-brotli
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
-# BEGIN Cache-Control Headers
-<IfModule mod_headers.c>
-    <FilesMatch "\.(ico|png|webp|css|gz)$">
-        Header set Cache-Control "max-age=31536000, public"
-    </FilesMatch>
-    <FilesMatch "\.(js)$">
-        Header set Cache-Control "max-age=31536000, private"
-    </FilesMatch>
-    <FilesMatch "\.(html|htm)$">
-        Header set Cache-Control "max-age=31536000, public"
-    </FilesMatch>
-    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-        Header unset Cache-Control
-    </FilesMatch>
-</IfModule>
-# END Cache-Control Headers
-
-# BEGIN Expires Headers
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresByType image/webp "access plus 1 year"
@@ -37,6 +20,5 @@ BrowserMatch ^Mozilla/5\.0(\s*)\(Windows(\s*)NT(\s*)6(\.\d+)(;\s*)rv:([7-9]|1[0-
     ExpiresByType image/x-icon "access plus 1 year"
     ExpiresDefault "access plus 2 days"
 </IfModule>
-# END Expires Headers
 
 Header set Content-Security-Policy "script-src 'self';"
